@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <h1>TIC TAC TOE</h1>
+    <h3>Tap on box to start the game</h3>
+    <h4>First Player is X</h4>
+    <h4>Second Player is 0</h4>
+    <!-- <div> -->
+        <!-- <table> -->
+            <!-- <tr> -->
+                <input type="text" id="b1" onclick="turn1(); logic();" readonly>
+                <input type="text" id="b2" onclick="turn2(); logic();" readonly>
+                <input type="text" id="b3" onclick="turn3(); logic();" readonly>
+
+                <!-- <button class="buttons" id="b1" onclick="turn1(); logic();"></button> -->
+                <!-- <button class="buttons" id="b2" onclick="turn2(); logic()"></button> -->
+                <!-- <button class="buttons" id="b3" onclick="turn3(); logic()"></button> -->
+            <!-- </tr> -->
+            <br>
+            <!-- <tr> -->
+                <input type="text" id="b4" onclick="turn4(); logic();" readonly>
+                <input type="text" id="b5" onclick="turn5(); logic();" readonly>
+                <input type="text" id="b6" onclick="turn6(); logic();" readonly>
+            <!-- </tr> -->
+            <br>
+            <!-- <tr> -->
+                <input type="text" id="b7" onclick="turn7(); logic();" readonly>
+                <input type="text" id="b8" onclick="turn8(); logic();" readonly>
+                <input type="text" id="b9" onclick="turn9(); logic();" readonly>
+            <!-- </tr>  -->
+            <br>
+        <!-- </table> -->
+        <h1 id="result"></h1>
+        <button id="reset" onclick="reset()">RESET</button>
+    <!-- </div> -->
+
+    <script src="index.js"></script>
+</body>
+
+</html>
